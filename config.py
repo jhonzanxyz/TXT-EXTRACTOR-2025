@@ -8,7 +8,7 @@ BOT_TOKEN = os.environ.get("BOT_TOKEN", "7842780078:AAG-8EEvMIq9iofWEkTgIc_HdCQn
 OWNER_ID = int(os.environ.get("OWNER_ID", "6444269766"))  # Your Telegram user ID
 SUDO_USERS = list(map(int, os.environ.get("SUDO_USERS", "6444269766").split()))  # Space-separated user IDs
 
-MONGO_URL = os.environ.get("MONGO_URL", "")##your mongo url eg: withmongodb+srv://xxxxxxx:xxxxxxx@clusterX.xxxx.mongodb.net/?retryWrites=true&w=majority
+MONGO_URL = os.environ.get("MONGO_URL", "mongodb+srv://wadiro6523:08AwfhhKRdQaS1i6@cluster0.krzxuop.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")##your mongo url eg: withmongodb+srv://xxxxxxx:xxxxxxx@clusterX.xxxx.mongodb.net/?retryWrites=true&w=majority
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002610392890"))  # Telegram channel ID (with -100 prefix)
 
 PREMIUM_LOGS = os.environ.get("PREMIUM_LOGS", "-1002656760888")  # Optional here you'll get all logs
